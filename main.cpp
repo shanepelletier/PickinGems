@@ -412,7 +412,6 @@ int main()
 						grass.SetPosition(i * 32, 
 						                  j * 32);
 						window.Draw(grass);
-						std::cout << grass.GetPosition().x << " " << grass.GetPosition().y << "\n";
 					}
 				}	
 				gem.SetPosition(gemPos);
